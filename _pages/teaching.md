@@ -6,12 +6,17 @@ description:
 nav: true
 ---
 
-## UCSD Courses Fall 2020
-- COGS 9. Introduction to Data Science 
-- COGS 118A. Supervised Machine Learning Algorithms
+## Fall 2021
+- COGS 9. Introduction to Data Science
+- COGS 108. Data Science in Practice
 
-## UCSD Courses Winter 2021
-- COGS 118B. Introduction to Machine Learning II 
+## Winter 2022
+- COGS 108. Data Science in Practice
+
+## Spring 2022
+- COGS 108. Data Science in Practice
+- COGS 118A Supervised Machine Learning Algorithms
+
 
 (Links and pages will be added soon!)
 

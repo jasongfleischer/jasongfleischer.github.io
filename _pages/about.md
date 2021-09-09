@@ -23,11 +23,13 @@ passion for learning, and the skills to support it. You and I are both
 learning how to learn in these strange and difficult
 times. I'm grateful for your patience, but also your feedback about
 what isn't working.  If you have
-questions or need mentorship I'm 
+questions or need mentorship I'm
 [here to help](mailto:jfleischer@ucsd.edu).
 
 See  [teaching](teaching/) for current course information,
 and [pandemic](pandemic/) for relevant resources.
+
+Are you a student in one of my classes, and need to talk one on one? [Schedule a visit to my office hours here.](https://calendar.google.com/calendar/selfsched?sstoken=UUFzQ2RXR3dOVnZwfGRlZmF1bHR8Nzg4NGE1Yzc1NmM0NGJlNzUyZmNjMzgxNGUzYWQ1NzM)
 
 
 ## research
@@ -51,7 +53,6 @@ with chewing tobacco and I can saddle a horse.  My first computer's OS was CP/M.
 fiction is really about philosophy and the search for truth. I play
 soccer, if you need an aging full back or midfield destroyer hit me up. My
 academic career has been everything except straightforward, if you
-need career advice or an ear hit me up. 
+need career advice or an ear hit me up.
 I've squashed horse cadaver legs in a materials testing machine for
 science. I've been mugged. Frankly, I preferred the latter.
-

@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🔥 # the emoji used as the favicon
+icon: ⚓️ # the emoji used as the favicon
 url:  https://jgfleischer.com/  # the base hostname & protocol for your site
 
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -94,6 +94,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  people:
+    output: true
+    permalink: /people/:path/
 
 news_limit: 5
 

@@ -2,7 +2,7 @@
 layout: page
 title: people
 permalink: /people/
-description: the people who have all the research fun!
+description: Our lab members have all the research fun!
 nav: true
 display_categories: [research undergraduates, alumni]
 horizontal: false

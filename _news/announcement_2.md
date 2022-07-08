@@ -1,20 +1,6 @@
 ---
 layout: post
-title: Student research for Spring & Summer 2021
-date: 2020-07-07
-inline: false
+date: 2020-04-01
+inline: true
 ---
-
-If you're
-- inspired by anything in my [research history](../../publications/) or one of the projects below
-- a self-motivated learner
-- with good communication skills
-
-then let's talk. Send me a pitch about something you'd enjoy working
-on.
-
-***
-New projects (details TBD) I'm considering launching with various collaborators:
-- NLP for helping researchers explore the vast scientific literature
-- Extracting/labelling patterns of behavior in human circadian & diet data collected by smartphone app
-- more tc...
+We have received two grants from UCSD this year! Big thanks to the generous support of the Dean of Undergraduate Education John Moore and the CDIIP program for funding "Equity-based project group management tool integrating Canvas and Github". And a huge, heart-felt thank you to Associate Dean Amanda Datnow and the Division of Social Sciences program Advancing Racial Justice for funding "Analysis of racial disparities in criminal charges, convictions, and sentencing within San Diego County"!

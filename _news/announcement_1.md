@@ -1,9 +1,6 @@
 ---
 layout: post
-date: 2020-07-01
+date: 2022-07-01
 inline: true
 ---
-
-I'm pleased to announce I'm joining
-[Cognitive Science](http://www.cogsci.ucsd.edu) at
-[UC San Diego](http://ucsd.edu)!
+Congratulations to undergraduates Jiayi (Viki) Zhao, Samuel Chu, Scott Yang, and Tyler Tran for obtaining scholarships for 2022 summer research in our lab! 

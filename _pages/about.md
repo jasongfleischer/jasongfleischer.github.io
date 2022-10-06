@@ -19,15 +19,11 @@ social: true  # includes social icons at the bottom of the page
 
 ## teaching
 My goal is to facilitate students developing a
-passion for learning, and the skills to support it. You and I are both
-learning how to learn in these strange and difficult
-times. I'm grateful for your patience, but also your feedback about
-what isn't working.  If you have
+passion for learning, and the skills to support it.
+If you have
 questions or need mentorship I'm
 [here to help](mailto:jfleischer@ucsd.edu).
 
-See  [teaching](teaching/) for current course information,
-and [pandemic](pandemic/) for relevant resources.
 
 Are you a student in one of my classes, and need to talk one on one? [Schedule a visit to my office hours here.](https://calendar.google.com/calendar/selfsched?sstoken=UUFzQ2RXR3dOVnZwfGRlZmF1bHR8Nzg4NGE1Yzc1NmM0NGJlNzUyZmNjMzgxNGUzYWQ1NzM)
 

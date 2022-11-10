@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jason Fleischer">
+<meta name="dcterms.date" content="2020-02-29">
+
+<title>Buzz Aldrin’s lifetime mean altitude</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/clipboard/clipboard.min.js"></script>
+<script src="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/quarto-html/quarto.js"></script>
+<script src="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/quarto-html/popper.min.js"></script>
+<script src="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/quarto-html/anchor.min.js"></script>
+<link href="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="2020-02-29-Buzz-Aldrins-average-altitude_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Buzz Aldrin’s lifetime mean altitude</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jason Fleischer </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 29, 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>At some point online I saw someone calculate Neil Armstrong’s mean lifetime altitude. This seems like a complete Randall Monroe of xkcd.com kind of thing. But I cannot for the life of me find the link now to put it here.</p>
+Update 2022-11-10: <a href="https://twitter.com/whatifnumbers/status/1200105688938295298">I found it</a>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+71.4: Neil Armstrong’s lifetime average height above the Earth’s surface in kilometers
+</p>
+— What-If Numbers (<span class="citation" data-cites="whatifnumbers">@whatifnumbers</span>) <a href="https://twitter.com/whatifnumbers/status/1200105688938295298?ref_src=twsrc%5Etfw">November 28, 2019</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Anyway I needed a silly toy problem to test the Jupyter notebook to blog post capability of some software I’m using it. So here I am… extending the Armstrong problem to the case of a still-alive astronaut who’s lifetime mean altitude is slowly decreasing.</p>
+<p>I mean, we all want him to live as long as possible, but he’s ruining his lifetime altitude with his longevity ;)</p>
+<p>Buzz graduated USMA in 1951. By 1972 at retirement he already had 3500 hours flying time [<a href="https://www.nationalaviation.org/our-enshrinees/aldrin-buzz/">1</a>]</p>
+<p>So to model Buzz’s aviation career, I’ll assume 9km average flight altitude (~30kft), and spread flight hours evenly over 1951-1972.</p>
+<p>To model Gemini 12, I use the data from [<a href="https://en.wikipedia.org/wiki/Gemini_12">2</a>] and assume mean orbital distance of apogee and perigee for the duration of the flight.</p>
+<p>To model Apollo 11, I used data from the following sources to get information on the flight profile [<a href="https://airandspace.si.edu/sites/default/files/images/5317h.jpg">3</a>, <a href="https://history.nasa.gov/SP-4029.pdf">4</a>, and Table 7.11 of <a href="https://www.hq.nasa.gov/alsj/a11/a11MIssionReport_1971">5</a>]. While the change in altitude per unit time during a flight phase is not constant (Earth’s gravity, yo), a quick check I did with a linear interpolation (visible in the code) led me to believe that the difference between real orbital mechanics model and just taking the average altitude of a flight phase would only be a matter of a few percent and not really worth caring about in this context.</p>
+<div class="cell" data-execution_count="39">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># convert nautical miles to kilometers</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>NMi2Km <span class="op">=</span> <span class="fl">1.852</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># per wiki he graduated USMA in 1951 and by 1972 at retirement. I made up the graduation date</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># he already had 3500 hours flying time per https://www.nationalaviation.org/our-enshrinees/aldrin-buzz/</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># assume 9km average flight altitude (~30kft)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>AFstart <span class="op">=</span> pd.Timestamp(<span class="st">'May 1, 1951 12:00:00 UTC'</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>AFend <span class="op">=</span> pd.Timestamp(<span class="st">'July 1, 1971 12:00:00 UTC'</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>AFdur <span class="op">=</span> AFend <span class="op">-</span> AFstart </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>AFeffectiveAlt <span class="op">=</span> <span class="dv">9</span> <span class="op">*</span> pd.Timedelta(<span class="st">'3500 hours'</span>) <span class="op">/</span> AFdur <span class="co"># spread flight hours over the whole AF career evenly</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Gemini 12 https://en.wikipedia.org/wiki/Gemini_12</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># assume mean orbital distance of apogee and perigee</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>G12start <span class="op">=</span> pd.Timestamp(<span class="st">'November 11, 1966, 20:46:33 UTC'</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>G12end <span class="op">=</span> pd.Timestamp(<span class="st">'November 15, 1966, 19:21:04 UTC'</span>)</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>G12meanAlt <span class="op">=</span> np.mean([<span class="dv">160</span>,<span class="dv">270</span>]) <span class="co"># already in km from wiki</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Apollo 11 https://airandspace.si.edu/sites/default/files/images/5317h.jpg</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># https://history.nasa.gov/SP-4029.pdf</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Table 7.11 of https://www.hq.nasa.gov/alsj/a11/a11MIssionReport_1971015566.pdf</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>MoonMeanDistKm <span class="op">=</span> <span class="dv">384400</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>A11liftoff <span class="op">=</span> pd.Timestamp(<span class="st">'July 16, 1969, 13:32:00 UTC'</span>) </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>A11EarthOrbitAlt <span class="op">=</span> <span class="dv">100</span> <span class="op">*</span> NMi2Km <span class="co"># this is rough</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>A11TLI <span class="op">=</span> A11liftoff <span class="op">+</span> pd.Timedelta(<span class="st">'2 hours 50 minutes'</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>A11MidcourseOut <span class="op">=</span> A11liftoff <span class="op">+</span> pd.Timedelta(<span class="st">'26 hours 45 minutes'</span>)</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>A11MidcourseAlt <span class="op">=</span> <span class="dv">109475</span> <span class="op">*</span> NMi2Km</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>A11LunarInsert <span class="op">=</span> A11liftoff <span class="op">+</span> pd.Timedelta(<span class="st">'75 hours 50 minutes'</span>)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>A11TEI <span class="op">=</span> A11liftoff <span class="op">+</span> pd.Timedelta(<span class="st">'135 hours 24 minutes'</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>A11splashdown <span class="op">=</span> A11liftoff <span class="op">+</span> pd.Timedelta(<span class="st">'195 hours 18 minutes'</span>)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co"># lets check to see if we need to do any detailed interpolation, or if mean is enough...</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co"># print(109475 * NMi2Km / MoonMeanDistKm, (A11MidcourseOut - A11TLI) / (A11LunarInsert - A11MidcourseOut))</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="co"># &gt; 0.5274393860561915 0.4872665534804754</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="co"># this is close enough to linear interpolation that I'm not going to bother with anything else</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co"># so for the duration of the flight from earth to moon, just fill in 1/2 the lunar distance</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>baidx <span class="op">=</span> pd.date_range(start<span class="op">=</span><span class="st">'January 20, 1930'</span>,end<span class="op">=</span><span class="st">'November 10, 2022'</span>,freq<span class="op">=</span><span class="st">'H'</span>,tz<span class="op">=</span><span class="st">'UTC'</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>BuzzAlt <span class="op">=</span> pd.Series(<span class="dv">0</span>,index<span class="op">=</span>baidx)</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>BuzzAlt.loc[AFstart:AFend] <span class="op">=</span> AFeffectiveAlt</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>BuzzAlt.loc[G12start:G12end] <span class="op">=</span> G12meanAlt</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>BuzzAlt.loc[A11liftoff:A11TLI] <span class="op">=</span> A11EarthOrbitAlt</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>BuzzAlt.loc[A11TLI:A11LunarInsert] <span class="op">=</span> MoonMeanDistKm <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>BuzzAlt.loc[A11LunarInsert:A11TEI] <span class="op">=</span> MoonMeanDistKm</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>BuzzAlt.loc[A11TEI:A11splashdown] <span class="op">=</span> MoonMeanDistKm <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="co">#BuzzAlt.plot(logy=True, ylim=(1,1000000));</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.ylabel('kilometers');</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.xlabel('on this date');</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.title('Aldrin\'s altitude history - log scale');</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.annotate('Gemini 12', xy=(G12start,2*10**2), xycoords='data', xytext=(-55,0), textcoords='offset points');</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="co">#plt.annotate('Apollo 11', xy=(A11liftoff,4*10**5), xycoords='data', xytext=(5,0), textcoords='offset points');</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'</span><span class="ch">\t</span><span class="st">When this post was first published in Feb 2020,</span><span class="ch">\n</span><span class="st">Aldrin</span><span class="ch">\'</span><span class="st">s lifetime mean altitude was </span><span class="sc">{:3.1f}</span><span class="st"> km'</span>.<span class="bu">format</span>(BuzzAlt[:<span class="st">'2020-02-02'</span>].mean()))</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'</span><span class="ch">\n\t</span><span class="st">Now (Nov 2022) Aldrin</span><span class="ch">\'</span><span class="st">s lifetime mean altitude</span><span class="ch">\n</span><span class="st">is </span><span class="sc">{:3.1f}</span><span class="st"> km and dropping </span><span class="ch">\U0001F680\U0001F913</span><span class="st">'</span>.<span class="bu">format</span>(BuzzAlt.mean()))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>    When this post was first published in Feb 2020,
+Aldrin's lifetime mean altitude was 61.2 km
+
+    Now (Nov 2022) Aldrin's lifetime mean altitude
+is 59.4 km and dropping 🚀🤓</code></pre>
+</div>
+</div>
+<div class="cell" data-execution_count="10">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>BuzzAlt.expanding().mean().plot(logy<span class="op">=</span><span class="va">True</span>,ylim<span class="op">=</span>(<span class="fl">0.0001</span>,<span class="dv">1000</span>))<span class="op">;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'kilometers'</span>)<span class="op">;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'as of this date'</span>)<span class="op">;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Aldrin</span><span class="ch">\'</span><span class="st">s mean altitude to-date - log scale version'</span>)<span class="op">;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>plt.annotate(<span class="st">'Gemini 12'</span>, xy<span class="op">=</span>(G12start,<span class="dv">10</span><span class="op">**-</span><span class="dv">1</span>), xycoords<span class="op">=</span><span class="st">'data'</span>, xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">55</span>,<span class="dv">0</span>), textcoords<span class="op">=</span><span class="st">'offset points'</span>)<span class="op">;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>plt.annotate(<span class="st">'Apollo 11'</span>, xy<span class="op">=</span>(A11liftoff,<span class="dv">10</span><span class="op">**</span><span class="dv">2</span>), xycoords<span class="op">=</span><span class="st">'data'</span>, xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">50</span>,<span class="dv">0</span>), textcoords<span class="op">=</span><span class="st">'offset points'</span>)<span class="op">;</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>plt.annotate(<span class="st">'Air Force</span><span class="ch">\n</span><span class="st">flight hours'</span>, xy<span class="op">=</span>(AFstart,<span class="dv">10</span><span class="op">**-</span><span class="dv">2</span>), xycoords<span class="op">=</span><span class="st">'data'</span>, xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">60</span>,<span class="op">-</span><span class="dv">10</span>), textcoords<span class="op">=</span><span class="st">'offset points'</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="2020-02-29-Buzz-Aldrins-average-altitude_files/figure-html/cell-3-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="cell" data-execution_count="9">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># same thing, but linear y-axis instead of log</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>BuzzAlt.expanding().mean().plot()<span class="op">;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'kilometers'</span>)<span class="op">;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'as of this date'</span>)<span class="op">;</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Aldrin</span><span class="ch">\'</span><span class="st">s mean altitude to-date - linear scale version'</span>)<span class="op">;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>plt.annotate(<span class="st">'Gemini 12'</span>, xy<span class="op">=</span>(G12start,<span class="dv">10</span><span class="op">**-</span><span class="dv">1</span>), xycoords<span class="op">=</span><span class="st">'data'</span>, xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">55</span>,<span class="dv">10</span>), textcoords<span class="op">=</span><span class="st">'offset points'</span>)<span class="op">;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>plt.annotate(<span class="st">'Apollo 11'</span>, xy<span class="op">=</span>(A11liftoff,<span class="dv">10</span><span class="op">**</span><span class="dv">2</span>), xycoords<span class="op">=</span><span class="st">'data'</span>, xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">50</span>,<span class="dv">10</span>), textcoords<span class="op">=</span><span class="st">'offset points'</span>)<span class="op">;</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>plt.annotate(<span class="st">'Air Force</span><span class="ch">\n</span><span class="st">flight hours'</span>, xy<span class="op">=</span>(AFstart,<span class="dv">10</span><span class="op">**-</span><span class="dv">2</span>), xycoords<span class="op">=</span><span class="st">'data'</span>, xytext<span class="op">=</span>(<span class="op">-</span><span class="dv">60</span>,<span class="dv">10</span>), textcoords<span class="op">=</span><span class="st">'offset points'</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="2020-02-29-Buzz-Aldrins-average-altitude_files/figure-html/cell-4-output-1.png" class="img-fluid"></p>
+</div>
+</div>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

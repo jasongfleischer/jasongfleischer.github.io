@@ -125,6 +125,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - _pages/2020-02-29-Buzz-Aldrins-average-altitude.html
 keep_files:
   - CNAME
   - .nojekyll

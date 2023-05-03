@@ -22,24 +22,7 @@ My goal is to facilitate students developing a
 passion for learning, and the skills to support it.
 If you have
 questions or need mentorship I'm here to help.
-[You can email me](mailto:jfleischer@ucsd.edu) or schedule an appoint in my office hours.
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2jgVJ7I9XV8tg6kso6uBZQbouxgzBohU3SkSo7TaNRhYF--9dGIh1d-h1tY5LN01K5m9WVFMiW?gv=true',
-      color: '#039BE5',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
+[You can email me](mailto:jfleischer@ucsd.edu) or [schedule an appoint in my office hours](https://calendar.app.google/gxAz1iMJJb2iLkqq8).
 
 
 

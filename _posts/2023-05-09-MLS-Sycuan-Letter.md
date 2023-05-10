@@ -26,7 +26,7 @@ The Loyal may be in the USL Championship (the 2nd tier of American soccer) but t
 
 ## MLS expansion
 
-(Recent reports)[https://www.sandiegouniontribune.com/sports/soccer/story/2023-05-06/major-league-soccer-mls-san-diego-expansion-franchise-snapdragon-stadium-sycuan-mansour-group] have said that MLS will expand into San Diego owned by a partnership of the Sycuan Band of the Kumeyaay Nation and the Mansour Group. This new new team would be playing games at San Diego State's Snapdragon Stadium.  Apparently San Diego Loyal is not part of this bid.  To my limited understanding it would be typical for a local club in a lower division to be somehow involved in the process of creating a new MLS team.  Many notable MLS clubs were actually once in the USL. An existing USL club might lend its fan base to a new entity and be absorbed into it. At the very least there would likely be some kind of cooperation and relationship between two clubs in the same market.   But the report says that there is no communication between this bid and the Loyal.
+[Recent reports](https://www.sandiegouniontribune.com/sports/soccer/story/2023-05-06/major-league-soccer-mls-san-diego-expansion-franchise-snapdragon-stadium-sycuan-mansour-group) have said that MLS will expand into San Diego owned by a partnership of the Sycuan Band of the Kumeyaay Nation and the Mansour Group. This new new team would be playing games at San Diego State's Snapdragon Stadium.  Apparently San Diego Loyal is not part of this bid.  To my limited understanding it would be typical for a local club in a lower division to be somehow involved in the process of creating a new MLS team.  Many notable MLS clubs were actually once in the USL. An existing USL club might lend its fan base to a new entity and be absorbed into it. At the very least there would likely be some kind of cooperation and relationship between two clubs in the same market.   But the report says that there is no communication between this bid and the Loyal.
 
 ## What I hope will happen
 I trust what the Loyal and its people have been building. At this moment I do not have any reason to trust the partnership behind the new bid.  I cannot imagine them being as community oriented, reaching out beyond the narrow confines of the soccer sphere to touch peoples lives for the better. 
@@ -47,12 +47,14 @@ I will support this new club with my dollars and my voice if and only if
 If I do not see evidence of these I pledge to continue to to direct the attention of the people I know towards the Loyal, including my 1500 undergraduate students per year.
 
 
-With great hope for the future of San Diego, its culture,  and its professional sports teams,
+With great hope for the future of San Diego, its culture,  and its professional sports teams,   
 
-<br>
-<br>
-Jason G Fleischer, PhD<br>
-Department of Cognitive Science<br>
+
+
+
+
+Jason G Fleischer, PhD   
+Department of Cognitive Science   
 UC San Diego
 
 

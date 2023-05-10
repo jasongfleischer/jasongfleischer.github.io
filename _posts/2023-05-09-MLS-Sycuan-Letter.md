@@ -31,12 +31,12 @@ The Loyal may be in the USL Championship (the 2nd tier of American soccer) but t
 ## What I hope will happen
 I trust what the Loyal and its people have been building. At this moment I do not have any reason to trust the partnership behind the new bid.  I cannot imagine them being as community oriented, reaching out beyond the narrow confines of the soccer sphere to touch peoples lives for the better. 
 
-Its up to this group to prove my assumptions wrong.  And one of the quickest ways to do that would be to see clearly that there is some kind of relationship between Loyal and this bid.  
+Its up to this group to prove my assumptions wrong.  And one of the quickest ways to do that would be to see clearly that there is some kind of relationship between the Loyal and this bid.  
 
 ## What I will do
 I will always support the Loyal personally. 
 
-I do not want to see an unegaged, profit oriented business come in to San Diego and suck up all the soccer dollars from the casual fan who likes the big name brand.
+I do not want to see an unengaged, profit-oriented business come in to San Diego and suck up all the soccer dollars from the casual fan who likes a big name brand.
  
 I will support this new club with my dollars and my voice if and only if
 - there is some kind of relationship between the Loyal and the new club that is satisfactory to the Loyal
@@ -44,7 +44,7 @@ I will support this new club with my dollars and my voice if and only if
 - the new club dedicates a significant set of resources to build up a variety of community organizations
 - the new club offers a clear path for youth players to develop into professionals, especially people from underrepresented communities and those who are not rich enough to afford the American pay-to-play system.
 
-If I do not see evidence of these I pledge to continue to to direct the attention of the people I know towards the Loyal, including my 1500 undergraduate students per year.
+If I do not see evidence of these I pledge to continue to to direct the attention of the people I know away from a San Diego MLS club and instead towards the Loyal, including my 1500 undergraduate students per year.
 
 
 With great hope for the future of San Diego, its culture,  and its professional sports teams,   

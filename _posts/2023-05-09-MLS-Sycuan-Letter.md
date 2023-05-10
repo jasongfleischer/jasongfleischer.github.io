@@ -49,9 +49,10 @@ If I do not see evidence of these I pledge to continue to to direct the attentio
 
 With great hope for the future of San Diego, its culture,  and its professional sports teams,
 
-
-Jason G Fleischer, PhD
-Department of Cognitive Science
+<br>
+<br>
+Jason G Fleischer, PhD<br>
+Department of Cognitive Science<br>
 UC San Diego
 
 

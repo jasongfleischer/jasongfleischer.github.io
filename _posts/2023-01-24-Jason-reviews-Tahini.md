@@ -9,7 +9,7 @@ search_exclude: false
 categories: [UCSDfood]
 author: Jason Fleischer
 ---
-# Jason reviews food at UC San Diego: Tahini
+# Tahini
 
 ### Location: 
 New Sixth College (SSPEB) 

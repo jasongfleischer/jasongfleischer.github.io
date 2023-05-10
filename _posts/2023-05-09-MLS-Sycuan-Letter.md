@@ -1,6 +1,6 @@
 ---
-title: "An open letter about MLS Expansion abandoning SD Loyal"
-description: "Best felafel in SD"
+title: "An open letter about MLS Expansion"
+description: "Don't freeze out San Diego Loyal and show us you care about this community"
 toc: false
 comments: true
 layout: post

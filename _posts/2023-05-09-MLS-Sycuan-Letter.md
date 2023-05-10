@@ -34,7 +34,7 @@ I trust what the Loyal and its people have been building. At this moment I do no
 Its up to this group to prove my assumptions wrong.  And one of the quickest ways to do that would be to see clearly that there is some kind of relationship between Loyal and this bid.  
 
 ## What I will do
-I will always support the Loyal personally as long as they exist. 
+I will always support the Loyal personally. 
 
 I do not want to see an unegaged, profit oriented business come in to San Diego and suck up all the soccer dollars from the casual fan who likes the big name brand.
  

@@ -6,7 +6,7 @@ comments: true
 layout: post
 hide: false
 search_exclude: false
-categories: [UCSDfood]
+categories: [soccer]
 author: Jason Fleischer
 ---
 
@@ -16,13 +16,13 @@ Dear Commisioner Garber,  Chairman Mansour, Chairman Martinez, Director Wicker, 
 ## About me
 I am a soccer sicko. I'm 50 years old and I still play defensive mid with kids half my age. Its in my blood; my mother played goalkeeper until someone shattered her knee at age 42. My family have been season ticket holders for both San Diego Loyal SC and San Diego Wave FC since the very first seasons of each club.
 
-I am also a visible part of the community. I am a member of the supporters groups for both San Diego clubs.  I coach AYSO.  I am a community volunteer on issues related to homlessness and health.  I am a professor at UC San Diego, working closely with dozens of faculty and more than 1500 students every year.   During the intro lecture of every course I teach I have two slides: one for the Loyal and one for the Wave. In the last two years, at least two dozen people have gone to these games because I let them know that San Diego has professional teams worth supporting.
+I am also a visible part of the community. I am a member of the supporters groups for both San Diego clubs.  I coach AYSO.  I am a community volunteer on issues related to homlessness and health.  I am a professor at UC San Diego, working closely with dozens of faculty and more than 1500 students every year.   The first lecture of every course I teach has two slides that have nothing to do with the course: one for the Loyal and one for the Wave. In the last two years, at least two dozen people have gone to these games because I let them know that San Diego has professional teams worth supporting.
 
 ## Loyalty
 
-I feel strongly that San Diego Loyal SC, its people and the institution they have built, is the kind of club we want in our city.  They have built a vibrant and engaged fan base.  They have built a real community of supporters.  They have built connections to the community at large through volunteer work and fundraising for vital SD non-profits like Rady Children's Hospital and local YMCA.  They have deep connections with youth soccer in this region, and they run an academy which has developed and given multiple teenagers their professional debut.  They have developed multiple USL players to the point where they earned moves to MLS teams.
+I feel strongly that San Diego Loyal SC, its people and the institution they have built, is the kind of club we want in our city.  They have built a vibrant and engaged fan base.  They have built a real community of supporters.  They have built connections to the community at large through volunteer work and fundraising for vital SD non-profits like Rady Children's Hospital and the local YMCA.  They have deep connections with youth soccer in this region, and they run an academy which has developed and given multiple teenagers their professional debut.  They have developed multiple USL players to the point where they earned moves to MLS teams.
 
-The Loyal may be in the USL Championship (the 2nd tier of American soccer) but they have a presence and impact that I argue rivals and surpasses many clubs in MLS (top tier of American soccer)
+The Loyal may be in the USL Championship (the 2nd tier of American soccer) but they have a presence and impact that I argue rivals and surpasses many clubs in MLS (the top tier of American soccer)
 
 ## MLS expansion
 
@@ -36,7 +36,7 @@ Its up to this group to prove my assumptions wrong.  And one of the quickest way
 ## What I will do
 I will always support the Loyal personally as long as they exist. 
 
-I do not want to see an unegaged profit oriented business come in to San Diego and suck up all the socker dollars from the casual fan who likes the big name brand.
+I do not want to see an unegaged, profit oriented business come in to San Diego and suck up all the soccer dollars from the casual fan who likes the big name brand.
  
 I will support this new club with my dollars and my voice if and only if
 - there is some kind of relationship between the Loyal and the new club that is satisfactory to the Loyal
@@ -44,7 +44,7 @@ I will support this new club with my dollars and my voice if and only if
 - the new club dedicates a significant set of resources to build up a variety of community organizations
 - the new club offers a clear path for youth players to develop into professionals, especially people from underrepresented communities and those who are not rich enough to afford the American pay-to-play system.
 
-If I do not see evidence of these I pledge to continue to to direct the attention of the people I know towards the Loyal, including my 1500 undergraduate students per year
+If I do not see evidence of these I pledge to continue to to direct the attention of the people I know towards the Loyal, including my 1500 undergraduate students per year.
 
 
 With great hope for the future of San Diego, its culture,  and its professional sports teams,

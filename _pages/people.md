@@ -4,7 +4,7 @@ title: people
 permalink: /people/
 description: Our lab members have all the research fun!
 nav: true
-display_categories: [research undergraduates, alumni]
+display_categories: [undergrads, grads, alumni]
 horizontal: false
 ---
 <div class="people">

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scott (Yuanjia) Yang
+title: Jiayi (Viki) Zhao
 description: Undergraduate Researcher @ UCSD
 img: /assets/img/viki.jpg
 importance: 2

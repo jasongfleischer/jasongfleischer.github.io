@@ -22,7 +22,7 @@ My goal is to facilitate students developing a
 passion for learning, and the skills to support it.
 If you have
 questions or need mentorship I'm here to help.
-[You can email me](mailto:jfleischer@ucsd.edu) or [schedule an appoint in my office hours](https://calendar.app.google/gxAz1iMJJb2iLkqq8).
+[You can email me](mailto:jfleischer@ucsd.edu) or [schedule an appointment in my office hours](https://calendar.app.google/gxAz1iMJJb2iLkqq8).
 
 
 

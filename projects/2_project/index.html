@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Jason G. Fleischer | blank</title>
+<title>Jason G. Fleischer | Predicting age from gene transcription</title>
 <meta name="description" content="In theory, there's no difference between theory and practice.
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/2_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -97,7 +97,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -105,8 +105,6 @@
           </li>
           
           <!-- Other pages -->
-          
-          
           
           
           
@@ -187,60 +185,31 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Argo Navis</h1>
-    <h2>Data and science and sometimes other stuff.</h2>
-  </div>
-       <div style="float:left; margin-top:50px; margin-right:50px; margin-bottom:50px;">
-	<a class="twitter-timeline" data-width="300" data-height="800" href="https://twitter.com/jasongfleischer?ref_src=twsrc%5Etfw">Tweets by jasongfleischer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
+  <header class="post-header">
+    <h1 class="post-title">Predicting age from gene transcription</h1>
+    <p class="post-description">Using machine learning techniques to find signals of aging in RNAseq data, with the goal of developing a biologial age predictor</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/Suicide/">Suicide, secrets, and shame</a></h3>
-        <p class="post-meta">October 14, 2023</p>
-        <p>Two Davids, Two Richards, and me</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/MLS-Sycuan-Letter/">An open letter about MLS Expansion</a></h3>
-        <p class="post-meta">May 9, 2023</p>
-        <p>Don't freeze out San Diego Loyal and show us you care about this community</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/Jason-reviews-Tahini/">Jason reviews food at UCSD: Tahini</a></h3>
-        <p class="post-meta">January 24, 2023</p>
-        <p>Best felafel in SD</p>
-      </li>
-    
-  </ul>
+  <article>
+    <p>Aging is the progressive loss of cellular homeostasis, leading to an overall decline of organismal fitness. Over the past 30 years, the contributions of numerous molecular mechanisms and pathways that define the etiology of the aging process have been elucidated; for a review see Lopez-Otın et al. (Cell, 153(6):1194–217). Aged tissues also display a general increase in transcriptional noise and a loss of regulation (Harries et al., Aging Cell,10(5):868–78) and display systematic and predictable changes in methylation with age (Horvath, Genome Biol., 14(10):R115). Finally there is a marked heterogeneity in human lifespan and health outcomes for people of the same chronological age. Thus, one fundamental challenge is to identify biomarkers of aging that could predict remaining lifespan. Such predictors would be useful in evaluating lifestyle changes and therapeutic strategies in the pursuit of healthy aging.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blank - page 4">4</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>The findings above suggest that there could be signals in RNAseq of a tissue that would be able to predict the donor’s chronological age. Potentially this signal could encode “biological age”, which would more reliably predict the donor’s remaining lifespan or healthspan than their chronological age. Dermal fibroblasts can be obtained non-invasively, and they have a low proliferative rate which makes them likely to retain damage that occurs with age (Tigges et al, Mech Ageing Dev,138:2644). Thus my collaborators in the Hetzer lab collected genome-wide RNA-seq profiles of human dermal fibroblasts from 133 people aged 1 to 94 years old. We used a leave-one-out cross-validation protocol to predict a donor’s age from their RNA-seq data. This was done with both standard regression techniques and a novel ensemble classifier I invented. The ensemble classifier performed the best, predicting donor age with median error of four years. Furthermore the ensemble technique was the only one that predicted samples from Progeria patients as being older than age-matched controls. In Progeria, mutations in the nuclear envelope protein LaminA/C lead to a premature aging phenotype with lifespan dramatically shortened to an average of 14 years. Thus these results suggest that the ensemble classifier is responding to RNAseq changes that encode biological age.</p>
 
+<ul>
+  <li>JG Fleischer, R Schulte, HH Tsai, S Tyagi, A Ibarra, MN Shokhirev, L Huang, MW Hetzer, S Navlakha (2018). Predicting age from the transcriptome of human dermal fibroblasts. Genome Biology, 19:221.</li>
+</ul>
 
+<p>I believe strongly in open science. The software for the ensemble classifier is open source and available on GitHub. The repository is actively maintained and users with questions and requests are answered quickly. Likewise, the RNAseq dataset, the largest ever collection of bulk skin fibroblasts with a wide range of patient ages, is available freely on Gene Expression Omnibus.</p>
+
+<p>I have been working on extending the ensemble classifiers so that a model trained on one dataset will produce accurate age prediction on another dataset, a necessary step if this technique is to become a tool for research or clinical uses. Batch effects among RNAseq data sets make this challenging. When datasets have different age distributions, combining the datasets with standard techniques like ComBat is not generally effective for age prediction. The differential aging signal in each dataset can be confused for a batch effect and removed by the batch correction algorithm.</p>
+
+<ul>
+  <li>JG Fleischer, R Schulte, HH Tsai, S Tyagi, A Ibarra, MN Shokhirev, L Huang, MW Hetzer, S Navlakha, J Mertens, and R Gage (2019) Predicting age from the transcriptome of human dermal fibroblasts both within and across datasets. Poster at The Salk Institute Integrative Biology Syposium</li>
+</ul>
+
+<p>To address this issue of cross-batch age prediction, I am working in several directions. Firstly, I am exploring additional published algorithms for batch correction testing their abilities to remove batch effects while maintaining a signal of age in situations where age and batch are confounded. Secondly, I am exploring the use of different biomarkers that may be less susceptible to batch problems such as Illumina methylome arrays. Lastly, I am using public RNAseq data to find useful age-predicting features (transformations of the data) that may be invariant to batch effects. Finally in collaboration with the Gage lab at Salk I am investigating if any of the age prediction methods above show interesting results when tested on patients that either have a neurodegenerative disease or are at risk of developing such a disease. Many of the same pathways associated with aging are also involved in neurodegenerative diseases such as Alzheimer’s disease, Parkinson’s disease, and amyotrophic lateral sclerosis/frontotemporal dementia (ALS/FTD). The risk of developing these diseases highly correlates with age, and it, is difficult to predict susceptibility because the vast majority of cases are sporadic, i.e., lacking a well-defined genetic component. With further development this age prediction approach may have both clinical applications and use as a tool for evaluating potential treatments.</p>
+
+  </article>
 
 </div>
 
